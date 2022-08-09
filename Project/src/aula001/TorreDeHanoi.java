@@ -13,7 +13,7 @@ public class TorreDeHanoi {
         int discos = 3;
         hanoi(discos, 'A', 'B', 'C');
     }
-    // Função que para implementar a recursividade
+    // Função para implementar a recursividade
     private static void hanoi(int discos, char pinoOrigem, char pinoAuxiliar, char pinoDestino) {
         
         if(discos > 0){
